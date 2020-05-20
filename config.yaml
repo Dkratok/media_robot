@@ -1,4 +1,4 @@
 browser: "chrome"
 inst_url: "https://www.instagram.com/"
-inst_login: "login"
-inst_password: "pw"
+inst_login: ""
+inst_password: ""
