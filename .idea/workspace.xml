@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4168839b-c039-4df8-9606-fcd459056713" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/instagram/feed_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/test_get_posts_script.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/base_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/base_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/instagram/login_dialogs.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/instagram/login_dialogs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/instagram/login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/instagram/login_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tests/test_BaseUIScript.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/test_BaseUIScript.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,19 +44,19 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.pyOptions" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Programming\Python\media_robot\src\pages\instagram" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Programming\Python\media_robot" />
       <recent name="F:\Programming\Python\media_robot\venv" />
       <recent name="F:\Programming\Python\media_robot\src\core" />
       <recent name="F:\Programming\Python\media_robot\src\pages\instagram" />
       <recent name="F:\Programming\Python\media_robot\src" />
-      <recent name="F:\Programming\Python\media_robot\src\pages" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\Programming\Python\media_robot\src\pages\instagram" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in test_BaseUIScript.py">
-    <configuration name="baseUiScript" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Unittests in test_get_posts_script.py">
+    <configuration name="base_page" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="media_robot" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -60,11 +64,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/scripts" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/pages" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/scripts/baseUiScript.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/pages/base_page.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -73,7 +77,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="yaml_actions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="feed_page" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="media_robot" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -81,11 +85,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/utilities" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/pages/instagram" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/utilities/yaml_actions.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/pages/instagram/feed_page.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -136,6 +140,20 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests in test_get_posts_script.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="media_robot" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/src/tests/test_get_posts_script.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unittests in tests" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="media_robot" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -152,10 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests in test_get_posts_script.py" />
         <item itemvalue="Python tests.Unittests in test_BaseUIScript.py" />
+        <item itemvalue="Python.base_page" />
+        <item itemvalue="Python.feed_page" />
         <item itemvalue="Python tests.Unittests in test_BaseUIScript.py" />
-        <item itemvalue="Python tests.Unittests in tests" />
-        <item itemvalue="Python.baseUiScript" />
       </list>
     </recent_temporary>
   </component>
@@ -189,45 +208,45 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="718" y="391" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1587473955874" />
-    <state width="1899" height="256" key="GridCell.Tab.0.bottom" timestamp="1589965690454">
+    <state width="1899" height="256" key="GridCell.Tab.0.bottom" timestamp="1590065125169">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="256" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589965690454" />
-    <state width="1899" height="256" key="GridCell.Tab.0.center" timestamp="1589965690454">
+    <state width="1899" height="256" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590065125168" />
+    <state width="1899" height="256" key="GridCell.Tab.0.center" timestamp="1590065125168">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="256" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589965690454" />
-    <state width="1899" height="256" key="GridCell.Tab.0.left" timestamp="1589965690454">
+    <state width="1899" height="256" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590065125168" />
+    <state width="1899" height="256" key="GridCell.Tab.0.left" timestamp="1590065125168">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="256" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589965690454" />
-    <state width="1899" height="256" key="GridCell.Tab.0.right" timestamp="1589965690454">
+    <state width="1899" height="256" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590065125168" />
+    <state width="1899" height="256" key="GridCell.Tab.0.right" timestamp="1590065125168">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="256" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589965690454" />
-    <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1589558135040">
+    <state width="1899" height="256" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590065125168" />
+    <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1590058638803">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589558135040" />
-    <state width="1899" height="348" key="GridCell.Tab.1.center" timestamp="1589558135040">
+    <state width="1899" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590058638803" />
+    <state width="1899" height="348" key="GridCell.Tab.1.center" timestamp="1590058638803">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589558135040" />
-    <state width="1899" height="348" key="GridCell.Tab.1.left" timestamp="1589558135040">
+    <state width="1899" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590058638803" />
+    <state width="1899" height="348" key="GridCell.Tab.1.left" timestamp="1590058638803">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589558135040" />
-    <state width="1899" height="348" key="GridCell.Tab.1.right" timestamp="1589558135040">
+    <state width="1899" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590058638803" />
+    <state width="1899" height="348" key="GridCell.Tab.1.right" timestamp="1590058638803">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589558135040" />
+    <state width="1899" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590058638803" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1589446990600">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1589446990600" />
-    <state x="655" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1589965265289">
+    <state x="655" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1590047320317">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="655" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589965265289" />
+    <state x="655" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590047320317" />
   </component>
 </project>

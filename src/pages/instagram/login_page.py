@@ -13,6 +13,7 @@ class InstagramLoginPage(BasePage):
 
     def login(self):
         yaml_actions = YamlActions("../../config.yaml");
+        self.go_to_site(yaml_actions.get_yaml_value_by_key("inst_url"))
         input_login = self.find_element(LoginPageLocators.login_input_locator)
         input_login.click()
         input_login.send_keys(yaml_actions.get_yaml_value_by_key("inst_login"))

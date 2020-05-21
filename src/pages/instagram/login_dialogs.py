@@ -1,5 +1,4 @@
 from selenium.webdriver.common.by import By
-from selenium import webdriver
 from src.pages.base_page import BasePage
 
 
@@ -17,10 +16,10 @@ class NotificationDialog(BasePage):
             self.find_element(NotifDialogLocators.not_now_button_locator).click()
 
 
-class SaveCredsDialogLocators:
+"""class SaveCredsDialogLocators:
     dialog_locator = (By.CSS_SELECTOR, ".piCib")
     switch_on_button_locator = (By.CSS_SELECTOR, ".IiDR")
-    not_now_button_locator = (By.CSS_SELECTOR, ".HoLwm")
+    not_now_button_locator = (By.CSS_SELECTOR, ".HoLwm")"""
 
 
 """class SaveCredsDialog(BasePage):
